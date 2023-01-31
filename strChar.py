@@ -14,5 +14,15 @@
 # name = 'David'
 # print(name[0])
 
-name = "David"
-print(name[-1])
+# name = "David"
+# print(name[-1])
+
+# name = 'Paterick'
+# print(name[0:4])    #doesn't include the last character
+
+# name = 'Paterick Bateman'
+# another = name[:]
+# print(another)
+
+name = 'Jennifer'
+print(name[1:-1])  #ennife
