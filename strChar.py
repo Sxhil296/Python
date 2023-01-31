@@ -11,6 +11,8 @@
 # '''
 # print(course)
 
-name = 'David'
-       #01234
-print(name[0])
+# name = 'David'
+# print(name[0])
+
+name = "David"
+print(name[-1])
