@@ -24,5 +24,14 @@
 # another = name[:]
 # print(another)
 
-name = 'Jennifer'
-print(name[1:-1])  #ennife
+# name = 'Jennifer'
+# print(name[1:-1])  #ennife
+
+name = 'Batman'
+print(len(name))
+print(name.upper())
+print(name.lower())
+print(name)
+print(name.find('t'))
+print(name.replace('B', 'C'))
+print('man' in name)
