@@ -10,4 +10,3 @@ while guess_count < guess_limit:
 else:
     print("You failed!")
 
-    
