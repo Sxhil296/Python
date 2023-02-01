@@ -26,4 +26,32 @@
 # numbers = [5, 2, 1, 6, 4]
 # print(50 in numbers)
 
+# numbers = [5, 2, 1, 5, 6, 4]
+# print(numbers.count(5))
+
+# numbers = [5, 2, 1, 6, 4]
+# numbers.sort()
+# print(numbers)
+
+
+# numbers = [5, 2, 1, 6, 4]
+# numbers.sort()
+# numbers.reverse()
+# print(numbers)
+
+# numbers = [5, 2, 1, 6, 4]
+# numbers2 = numbers.copy()
+# numbers.append(17)
+# print(numbers)
+# print(numbers2)
+
+
+#remove the duplicates from the list
+numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+uniques = []
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
+
 
